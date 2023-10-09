@@ -1,0 +1,92 @@
+body{
+    background-color: #9b9999;
+}
+
+a:link{
+    color: rgb(239, 89, 34);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/*a{
+    color: aqua;
+}*/
+
+a:visited{
+    color: chartreuse;
+}
+
+a:hover{
+    color: aqua;
+    font-size: 20px;
+    text-shadow: 5px 5px 10px white;
+    cursor: pointer;
+}
+
+a:active{
+    color: crimson;
+}
+
+input:focus{
+    border: 2px solid fuchsia;
+    outline: none;
+    box-shadow: 11px 10px 5px 0px rgba(231,37,37,0.68) inset;
+    -webkit-box-shadow: 11px 10px 5px 0px rgba(231,37,37,0.68) inset;
+    -moz-box-shadow: 11px 10px 5px 0px rgba(231,37,37,0.68) inset;
+}
+
+/*.parrafos p:first-child{
+    background-color: crimson;
+}*/
+
+/*.parrafos p:last-child{
+    background-color: orangered;
+}
+*/
+.parrafos :nth-child(3){
+    background-color: 9b9999;
+}
+
+.parrafos :nth-child(odd){
+    background-color: violet;
+}
+
+.parrafos :nth-child(even){
+    background-color: pink;
+}
+
+.cards :nth-child(even){
+    display: flex;
+}
+
+.cards :nth-child(odd){
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+ul{
+    list-style: none;
+    font-size: 0;
+}
+
+li{
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    font-size: 16px;
+}
+
+ul ul{
+    position: absolute;
+    display: none;
+}
+
+ul ul li{
+    display: block;
+}
+
+ul li:hover ul{
+    display: block;
+    background-color: rgb(47, 255, 168);
+}
+
